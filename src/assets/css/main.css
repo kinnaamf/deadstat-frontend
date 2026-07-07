@@ -1,3 +1,14 @@
 @import "tailwindcss";
 @import "../pcss/main.pcss";
+@theme {
+  --color-page:        #0E1512;
+  /*--color-section:     #1a2e1e;*/
+  --color-card:        #172420;
 
+  --color-border:        #1F302B;
+  --default-border-color: var(--color-border);
+
+  --color-primary:   #D4A843;
+  --color-secondary: #F0DFBF;
+  --color-muted:     #D6D4C8;
+}
