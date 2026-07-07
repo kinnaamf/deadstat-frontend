@@ -68,3 +68,46 @@
           #0E1512 90%
   );
 }
+
+
+
+.general-stats {
+  @apply flex flex-col gap-2;
+}
+
+.general-stats__card-title {
+  @apply text-xs text-secondary font-light
+}
+
+.general-stats__card-subtitle {
+  @apply text-base font-medium text-primary
+}
+
+.general-stats__card-container {
+ @apply grid grid-cols-4 gap-2.5
+}
+
+.general-stats__card {
+  @apply bg-card border border-border rounded-xl px-3 py-2 col-span-2
+  flex items-center
+}
+
+.general-stats__card-content {
+@apply flex w-full justify-between
+}
+
+.general-stats__card-value {
+  @apply text-[2rem] font-medium text-secondary;
+}
+
+.general-stats__card-stat {
+  @apply aspect-square bg-card border border-border rounded-xl flex flex-col items-center justify-center;
+}
+
+.chart-btn {
+  @apply text-base text-primary font-medium px-3 py-1.5 rounded-xl transition-all duration-200
+}
+
+.radar-chart {
+  @apply w-full max-w-xs mx-auto;
+}
