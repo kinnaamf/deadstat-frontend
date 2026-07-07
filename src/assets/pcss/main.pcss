@@ -111,3 +111,37 @@
 .radar-chart {
   @apply w-full max-w-xs mx-auto;
 }
+
+.stat-title {
+  @apply text-base font-medium text-secondary;
+}
+
+.stat-card {
+  @apply w-[170px] h-[170px] flex flex-col rounded-2xl
+}
+
+.stat-title {
+  @apply py-4 px-1 border-border border-b
+}
+
+.stat-col {
+  @apply flex flex-col items-center justify-center;
+}
+
+.stat-body {
+  @apply flex-1;
+  display: grid;
+  grid-template-columns:  1fr 1px 1fr;
+}
+
+.stat-value {
+  @apply text-[2rem] font-medium text-secondary;
+}
+
+.stat-label {
+  @apply relative text-[12px] text-secondary font-light -top-1
+}
+
+.vertical-divider {
+  @apply bg-border w-px h-full;
+}
