@@ -38,17 +38,13 @@ const rowTwo = [
 </script>
 
 <style scoped>
-/* Этот класс нужно повесить на оба ваших слайдера (или Swiper-обертки) */
 .slider-full-bleed {
-  /* Отрицательный margin растягивает контейнер до краев экрана */
   margin-left: -24px;
   margin-right: -24px;
 
-  /* Паддинг возвращает контент внутрь, чтобы слайды не "прилипали" к краям */
   padding-left: 24px;
   padding-right: 24px;
 
-  /* Разрешаем элементам выходить за границы */
   overflow: visible !important;
 }
 </style>
