@@ -1,0 +1,70 @@
+.player-info__container {
+  @apply flex gap-3 items-center;
+}
+
+.player-info__avatar {
+  @apply w-16 h-16 rounded-full
+}
+
+.player-info-username {
+  @apply text-secondary text-[2rem] font-bold;
+  font-family: "Roboto Serif", serif;
+}
+
+.player-info-id {
+  @apply text-primary text-sm font-light;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.section-title__container {
+  @apply w-full
+}
+
+.section-title__content {
+  @apply flex items-center justify-center h-full w-full bg-secondary rounded-xl
+}
+
+.filters__container {
+  @apply text-sm font-medium text-secondary flex items-center gap-4 h-8
+}
+
+.filters-title__container {
+  @apply bg-card border border-border h-full px-4 flex items-center justify-center rounded-2xl
+}
+
+.filters__title {
+  @apply text-secondary
+}
+
+.filters__list {
+ @apply h-full flex gap-2
+}
+
+.filters__list-item, .filters__list-item-active {
+  @apply h-full px-3 rounded-2xl transition-all duration-200
+}
+
+.filters__list-item-active {
+  @apply bg-primary text-card;
+}
+
+.personal-hero-stats-card {
+  @apply relative h-16 w-full px-2.5 py-2 rounded-2xl bg-card border border-border flex justify-between
+}
+.dsr-bar {
+  @apply w-[100px] h-2 bg-[#d9d9d9] rounded-full
+}
+
+.dsr-bar-value {
+  @apply absolute h-full left-0 top-0 w-[35%] bg-[#2ecc9a] rounded-full
+}
+
+.gradient-layout {
+  @apply absolute top-0 left-0 h-[500px] w-dvw -z-10 opacity-30;
+  background: linear-gradient(
+          to bottom,
+          #527B69 0%,
+          #1F302B 30%,
+          #0E1512 90%
+  );
+}
