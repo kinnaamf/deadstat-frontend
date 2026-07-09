@@ -10,7 +10,9 @@
       @click="active = 1"
     :class="active === 1 ? 'bg-primary !text-card' : ''">Oracle+</button>
   </div>
-  <div>
+  <div class="relative">
+    <div class="chart-gradient"></div>
+    <div class="chart-circle"></div>
     <RadarChart/>
   </div>
 </div>

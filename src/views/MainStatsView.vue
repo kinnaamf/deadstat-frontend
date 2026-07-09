@@ -5,8 +5,7 @@
       <StatsInfo/>
 
       <div class="relative">
-        <div class="chart-gradient"></div>
-        <div class="chart-circle"></div>
+
         <StatsChart/>
       </div>
 
